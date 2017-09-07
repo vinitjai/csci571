@@ -1,0 +1,169 @@
+@media only screen and (max-width: 1024px) { 
+    
+    
+    #searchbar{
+    width: 150px;
+    }
+    
+    #testbar{
+       width: 10px;
+       overflow: hidden;
+    }
+    
+    #cbutton{
+       padding-left:75px;
+        
+    }
+    
+        .animate-hide {
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition:all cubic-bezier(0,0,1,1) 1s;
+    -moz-transition:all cubic-bezier(0,0,1,1) 1s;
+    -o-transition:all cubic-bezier(0,0,1,1) 1s;
+    transition:all cubic-bezier(0,0,1,1) 1s;
+    opacity:1;
+    position: absolute;
+    left: 0;
+  
+}
+
+
+.animate-hide.ng-hide {
+  left: -100%;
+  opacity:0;
+  
+}
+    
+    #animate-hide-new {
+   width: 100%; 
+ -webkit-transition:all cubic-bezier(0,0,1,1) 1s;
+    -moz-transition:all cubic-bezier(0,0,1,1) 1s;
+    -o-transition:all cubic-bezier(0,0,1,1) 1s;
+    transition:all cubic-bezier(0,0,1,1) 1s;
+  opacity:1;
+  position: absolute;
+  right: 0;
+}
+
+     
+#animate-hide-new.ng-hide {
+  right: -100%;
+  opacity:0;
+  
+}
+    /* STYLES GO HERE */
+
+}
+
+@media only screen and (min-width: 1024px) { 
+    
+    
+    #searchbar{
+    width: 400px;
+    }
+    /* STYLES GO HERE */
+    
+    .animate-hide {
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    -webkit-transition:all cubic-bezier(0,0,1,1) 1s;
+    -moz-transition:all cubic-bezier(0,0,1,1) 1s;
+    -o-transition:all cubic-bezier(0,0,1,1) 1s;
+    transition:all cubic-bezier(0,0,1,1) 1s;
+    opacity:1;
+    position: absolute;
+    left: 0;
+  
+}
+
+
+.animate-hide.ng-hide {
+  left: -100%;
+  opacity:0;
+  
+}
+    
+  #animate-hide-new {
+  -webkit-overflow-scrolling: touch;
+    width: 100%;
+ -webkit-transition:all cubic-bezier(0,0,1,1) 1s;
+    -moz-transition:all cubic-bezier(0,0,1,1) 1s;
+    -o-transition:all cubic-bezier(0,0,1,1) 1s;
+    transition:all cubic-bezier(0,0,1,1) 1s;
+  opacity:1;
+  position: absolute;
+  right: 0;
+}
+
+     
+#animate-hide-new.ng-hide {
+  right: -100%;
+  opacity:0;
+  
+}
+
+#wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+    
+}
+
+
+
+
+form{
+    background-color:whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+form .form-group{
+    margin-left: 5%;
+}
+
+.masthead{
+    border-bottom: 2px solid #3b5998;
+    background-color: white;
+}
+
+.masthead nav li.navbar-header a{
+    color: black;
+}
+
+.masthead nav li.navbar-header a:hover{
+   background-color: #3b5998; 
+   color: white;
+    
+} 
+
+.masthead nav li.navbar-header a:focus{
+   background-color: #3b5998; 
+   color: white;
+    
+}
+
+.masthead nav li.navbar-header a:active{
+   background-color: #3b5998; 
+   color: white;
+    
+}
+
+#ClearButton{
+    background-color: white;
+    color: #3b5998;
+    border-color: #3b5998;
+    border-radius: 0;
+}
+
+#searchglyph{
+    background-color: #3b5998;
+    color:white;
+    border-color: #3b5998;
+    border-radius: 0;
+    width: 75px;
+}
+
+
+
